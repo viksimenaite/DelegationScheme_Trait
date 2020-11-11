@@ -33,7 +33,6 @@ object Main {
           Console.println("This product is not suitable for you.")
         }
 
-
       case 2 =>
         val product = FoodProduct(Vegan(), "2021-06-01", 10.5, containsLactose = false)
 
@@ -71,8 +70,6 @@ object Main {
         }else{
           Console.println("This product is not suitable for you.")
         }
-
-
 
       case _ => Console.println("Please choose a product from the list.")
   }
